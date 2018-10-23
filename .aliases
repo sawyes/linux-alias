@@ -22,8 +22,8 @@ fi
 
 alias 
 
-
-
+alias code='cd /home/wwwroot && ls -l'
+alias ua='cd ${ALIASES_HOME}} && git pull origin master'
 
 # List all files colorized in long format
 #alias l="ls -lF ${colorflag}"
