@@ -19,9 +19,6 @@ else # macOS `ls`
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
-
-alias 
-
 alias code="cd /home/wwwroot && ls -l"
 alias ua="cd ${ALIASES_HOME} && git pull origin master && cd -"
 
