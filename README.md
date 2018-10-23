@@ -13,7 +13,7 @@ ln -s .aliases aliases
 
 add below in `~/.bashrc`, then run `source ~/.bashrc`
 
-or: run command `cat aliases-file >>  ~/.bashrc && source ~/.bashrc`
+or: `run command `cat aliases-file >>  ~/.bashrc && source ~/.bashrc`
 
 ```
 # Add custom aliases

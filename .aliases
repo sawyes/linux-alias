@@ -19,6 +19,12 @@ else # macOS `ls`
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
+
+alias 
+
+
+
+
 # List all files colorized in long format
 #alias l="ls -lF ${colorflag}"
 ### MEGA: I want l and la ti return hisdden files
@@ -86,6 +92,7 @@ alias g="gulp"
 alias npm-global="npm list -g --depth 0"
 alias ra="reload"
 alias reload="source ${ALIASES_HOME}/aliases && echo \"$COL_GREEN ==> Aliases Reloaded... $COL_RESET \n \""
+alias ra="reload"
 alias run="npm run"
 alias tree="xtree"
 
