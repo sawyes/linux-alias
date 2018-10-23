@@ -22,7 +22,7 @@ if [ -f ${ALIASES_HOME}/aliases ]; then
 fi
 ```
 
-
+you also can run init.sh(chmod +x init.sh)
 
 
 
