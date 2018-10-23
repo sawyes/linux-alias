@@ -13,6 +13,8 @@ ln -s .aliases aliases
 
 add below in `~/.bashrc`, then run `source ~/.bashrc`
 
+or: run command `cat aliases-file >>  ~/.bashrc && source ~/.bashrc`
+
 ```
 # Add custom aliases
 ALIASES_HOME=/home/app/linux-alias
@@ -21,17 +23,3 @@ if [ -f ${ALIASES_HOME}/aliases ]; then
         source ${ALIASES_HOME}/aliases
 fi
 ```
-
-you also can run init.sh(chmod +x init.sh)
-
-
-
-
-
-
-
-
-
-
-
-
