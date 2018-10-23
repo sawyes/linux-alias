@@ -1,0 +1,6 @@
+# Add custom aliases
+ALIASES_HOME=/home/app/linux-alias
+
+if [ -f ${ALIASES_HOME}/aliases ]; then
+        source ${ALIASES_HOME}/aliases
+fi
