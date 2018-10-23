@@ -20,7 +20,13 @@ else # macOS `ls`
 fi
 
 alias code="cd /home/wwwroot && ls -l"
-alias ua="cd ${ALIASES_HOME} && git pull origin master && cd -"
+alias wwwroot="cd /home/wwwroot"
+alias wwwlogs="cd /home/wwwlogs"
+alias ua="cd ${ALIASES_HOME} && pullm && cd -"
+alias nginxroot="cd /usr/local/nginx"
+alias vhost="nginxroot && cd conf/vhost && ls"
+alias pullm="git pull origin master"
+alias pushm="git pull origin master"
 
 # List all files colorized in long format
 #alias l="ls -lF ${colorflag}"
