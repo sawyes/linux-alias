@@ -24,7 +24,7 @@ alias wwwroot="cd /home/wwwroot"
 alias wwwlogs="cd /home/wwwlogs"
 alias ua="cd ${ALIASES_HOME} && pullm && cd -"
 alias nginxroot="cd /usr/local/nginx"
-alias vhost="nginxroot && cd conf/vhost && ls"
+alias vhost="nginxroot && cd conf/vhost && ls -al"
 alias pullm="git pull origin master"
 alias pushm="git pull origin master"
 
