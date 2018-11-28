@@ -7,7 +7,7 @@ download and make aliases, you can change app root `/home/app`, remeber set agai
 ```
 mkdir -p /home/app && \
 cd /home/app && \
-git clone git@github.com:sawyes/linux-alias.git
+git clone https://github.com/sawyes/linux-alias.git
 ```
 
 run init
