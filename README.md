@@ -1,4 +1,4 @@
-# Linux Shell
+# Linux alias
 
 ## download & init
 
@@ -14,4 +14,10 @@ run init
 
 ```
 chmod u+x ./init.sh
+```
+
+run right now
+
+```
+source ~/.bashrc
 ```
