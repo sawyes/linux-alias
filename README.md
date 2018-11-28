@@ -7,19 +7,11 @@ download and make aliases, you can change app root `/home/app`, remeber set agai
 ```
 mkdir -p /home/app && \
 cd /home/app && \
-git clone git@github.com:sawyes/linux-alias.git && \
-ln -s .aliases aliases
+git clone git@github.com:sawyes/linux-alias.git
 ```
 
-add below in `~/.bashrc`, then run `source ~/.bashrc`
-
-or: `run command `cat aliases-file >>  ~/.bashrc && source ~/.bashrc`
+run init
 
 ```
-# Add custom aliases
-ALIASES_HOME=/home/app/linux-alias
-
-if [ -f ${ALIASES_HOME}/aliases ]; then
-        source ${ALIASES_HOME}/aliases
-fi
+chmod u+x ./init.sh
 ```
