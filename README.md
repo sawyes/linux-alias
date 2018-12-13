@@ -21,3 +21,21 @@ run right now
 ```
 source ~/.bashrc
 ```
+
+## upgrade aliases
+
+```
+ua
+```
+
+## reload aliases
+
+```
+ra
+```
+
+## edit aliases
+
+```
+ea
+```
