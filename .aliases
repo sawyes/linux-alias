@@ -1,5 +1,26 @@
 #! /bin/bash
 
+# prints colored text
+print_style () {
+
+    if [ "$2" == "info" ] ; then
+        COLOR="96m"
+    elif [ "$2" == "success" ] ; then
+        COLOR="92m"
+    elif [ "$2" == "warning" ] ; then
+        COLOR="93m"
+    elif [ "$2" == "danger" ] ; then
+        COLOR="91m"
+    else #default color
+        COLOR="0m"
+    fi
+
+    STARTCOLOR="\e[$COLOR"
+    ENDCOLOR="\e[0m"
+
+    printf "$STARTCOLOR%b$ENDCOLOR" "$1"
+}
+
 # Colors used for status updates
 ESC_SEQ="\x1b["
 COL_RESET=$ESC_SEQ"39;49;00m"
@@ -92,7 +113,10 @@ alias ccf='codecept run functional'
 
 alias g="gulp"
 alias npm-global="npm list -g --depth 0"
-alias reload="source ${ALIASES_HOME}/aliases && echo \"$COL_GREEN ==> Aliases Reloaded... $COL_RESET \n \""
+function reload(){
+    print_style "   source ${ALIASES_HOME}/aliases reload done.\n"
+    source ${ALIASES_HOME}/aliases
+}
 alias ra="reload"
 alias run="npm run"
 alias tree="xtree"
