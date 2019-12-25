@@ -13,6 +13,7 @@ git clone https://github.com/sawyes/linux-alias.git
 run init
 
 ```
+cd  /home/app/linux-alias
 chmod u+x ./init.sh
 ```
 
