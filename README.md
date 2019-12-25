@@ -15,6 +15,7 @@ run init
 ```
 cd  /home/app/linux-alias
 chmod u+x ./init.sh
+./init.sh
 ```
 
 run right now
